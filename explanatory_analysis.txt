@@ -1,0 +1,42 @@
+
+EXPLANATORY ANALYSIS
+
+Pertanyaan bisnis:
+Bagaimana merancang dan mengimplementasikan sistem berbasis kecerdasan buatan yang mampu
+mengklasifikasikan jenis sampah dari citra serta memberikan edukasi pengelolaan sampah
+guna mendukung pengurangan limbah dan peningkatan kesadaran lingkungan?
+
+Hasil analisis data:
+
+1. Dataset yang digunakan memiliki total 8282 gambar dengan 9 kelas sampah.
+   Kelas tersebut terdiri dari: Kertas, Plastik, Logam, Kaca, Residu, Kardus, recyclable, organic, hazardous.
+
+2. Kelas dengan jumlah gambar terbanyak adalah Kertas sebanyak 1807 gambar.
+   Sementara itu, kelas dengan jumlah gambar paling sedikit adalah hazardous sebanyak 389 gambar.
+
+3. Distribusi jumlah gambar per kelas penting untuk diperhatikan karena dapat memengaruhi performa model AI.
+   Jika ada kelas yang jumlah datanya terlalu sedikit, model berisiko lebih sulit mengenali kelas tersebut.
+
+4. Berdasarkan struktur kelas yang tersedia, sistem AI dapat dirancang menggunakan pendekatan image classification.
+   Model akan menerima input berupa gambar sampah, kemudian mengklasifikasikan gambar tersebut ke dalam salah satu kelas,
+   seperti Plastik, Kertas, Kaca, Logam, organic, hazardous, recyclable, Kardus, atau Residu.
+
+5. Setelah sistem berhasil mengklasifikasikan jenis sampah, aplikasi dapat menampilkan informasi edukasi.
+   Contohnya:
+   - Plastik: bersihkan terlebih dahulu sebelum didaur ulang.
+   - Kertas: pisahkan dari sampah basah agar tetap bisa didaur ulang.
+   - Kaca: kumpulkan secara hati-hati karena berisiko melukai.
+   - Logam: dapat dipilah dan dikirim ke tempat daur ulang.
+   - organic: dapat diolah menjadi kompos.
+   - hazardous: tidak boleh dicampur dengan sampah biasa karena berbahaya.
+   - Residu: perlu dikurangi karena sulit didaur ulang.
+
+6. Visualisasi distribusi kelas membantu mengetahui kesiapan dataset sebelum pelatihan model.
+   Dataset yang rapi, seimbang, dan memiliki gambar yang jelas akan membantu meningkatkan akurasi sistem klasifikasi.
+
+Kesimpulan:
+Berdasarkan hasil visualisasi dan analisis, dataset ini dapat digunakan sebagai dasar untuk membangun sistem
+EcoSortAI, yaitu sistem berbasis kecerdasan buatan yang mampu mengklasifikasikan jenis sampah dari citra.
+Sistem ini tidak hanya membantu proses pemilahan sampah secara otomatis, tetapi juga dapat memberikan edukasi
+kepada pengguna mengenai cara pengelolaan sampah yang benar. Dengan demikian, sistem ini berpotensi mendukung
+pengurangan limbah, meningkatkan daur ulang, dan membangun kesadaran lingkungan masyarakat.

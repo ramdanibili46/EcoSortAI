@@ -1,0 +1,17 @@
+
+HASIL ANALISIS SISTEM AI
+
+Jenis Sampah Terdeteksi : Sampah Organik
+Label Kelas             : organic
+Tingkat Kepercayaan     : 84.29%
+
+Edukasi:
+Sampah organik berasal dari sisa makanan, daun, atau bahan alami yang mudah terurai.
+
+Saran Pengelolaan:
+Olah menjadi kompos atau eco-enzyme agar tidak menumpuk di tempat pembuangan akhir.
+
+Kesimpulan:
+Berdasarkan hasil klasifikasi citra, sampah ini termasuk kategori Sampah Organik.
+Pengguna disarankan untuk mengelola sampah tersebut sesuai arahan agar dapat mendukung
+pengurangan limbah, meningkatkan proses daur ulang, dan membangun kesadaran lingkungan.

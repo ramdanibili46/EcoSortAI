@@ -1,13 +1,4 @@
-python gathering.py  
-
-python assessing.py 
-
-python cleaning.py   
-
-python eda.py
-
-python visualization_analysis.py
-
-python ai_waste_system.py
-setelah muncul itu ketik 
-ex: Masukkan path gambar sampah: dataset/Plastik/plastik_Image_1.jpg
+streamlit
+plotly
+pandas
+numpy
